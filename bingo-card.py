@@ -18,7 +18,7 @@ number_string = pygame.font.SysFont(None, 100)
 
 def generate_num(x, y):
     for i in range(1, 6):
-        number = random.randint((i - 1) * 15, i * 15)
+        number = random.randint((i - 1) * 15, i * 15) + 1
         if (i * 100 <= x <= (i + 1) * 100):
             surface.blit(
                 number_string.render(str(number), True, (0, 255, 255)), (x, y))
