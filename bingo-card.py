@@ -16,7 +16,7 @@ bingo_string = pygame.font.SysFont(None, 72)
 number_string = pygame.font.SysFont(None, 100)
 
 
-def generate_num(x, y, j):
+def generate_num(x, y):
     for i in range(1, 6):
         number = random.randint((i - 1) * 15, i * 15)
         if (i * 100 <= x <= (i + 1) * 100):
@@ -40,7 +40,7 @@ def main():
             surface.fill(yellow)
             for i in range(1, 6):
                 for j in range(1, 6):
-                    generate_num(20 + 100 * j, 30 + 100 * i, j)
+                    generate_num(20 + 100 * j, 30 + 100 * i)
 
         for i in range(1, 7):
             pygame.draw.line(surface, (255, 0, 0), (100 * i, 100),
