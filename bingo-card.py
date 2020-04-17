@@ -50,9 +50,7 @@ class Bingo_Card(object):
 
             if(self.switch):
                 surface.fill(pink)
-                index = 1
-                num_list, number2 = [], []
-
+                num_list, number2, used_index = [], [], []
                 for i in range(1, 6):
                     for j in range(1, 6):
                         number1 = random.randint(15*(j - 1) + 1, 15*j)
@@ -60,10 +58,12 @@ class Bingo_Card(object):
                             self.generate_num(100*j+20, 100*i+30, number1)
                         else:
                             number2 = range(15*(j-1)+1, 15*j)
-                            number2 = list(set(number2) - set(num_list))
+                            number2 = list(
+                                set(number2) - set(num_list)-set(used_index))
+                            used_index.append(
+                                number2[random.randint(0, len(number2)-1)])
                             self.generate_num(
-                                100*j+20, 100*i+30, number2[index])
-                            index = index + 1
+                                100*j+20, 100*i+30, number2[random.randint(0, len(number2)-1)])
                         num_list.append(number1)
 
             self.draw_normal_object()
