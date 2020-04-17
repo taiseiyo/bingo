@@ -62,7 +62,6 @@ class Bingo_Card(object):
                             number2 = list(
                                 set(number2) - set(num_list)-set(used_index))
                             x = random.randint(0, len(number2)-1)
-                            print(number2)
                             self.generate_num(
                                 100*i+20, 100*j+30, number2[x])
                             used_index.append(number2[x])
