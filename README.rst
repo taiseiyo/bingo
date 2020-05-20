@@ -15,12 +15,9 @@ bingo. By installing these two, multiple people can play bingo.
 Image of using bingo.py and bingo-card.py
 -----------------------------------------------
 
-.. list-table:: ロゴの比較
-   :widths: 15 10
-   :header-rows: 1
+.. list-table:: 
+   :widths: 10 10
 
-   * - 画像
-     - 解説
    * - .. image:: ./bingo-card.png
           :scale: 20%
 	  :align: left
