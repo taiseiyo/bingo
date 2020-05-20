@@ -20,6 +20,7 @@ Image of using bingo.py and bingo-card.py
    :header-rows: 1
 
    * - Image
+   * - Image
    * - .. image:: ./bingo.png
           :scale: 40%
      - Image of bingo.py
