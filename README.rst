@@ -18,14 +18,14 @@ Image of using bingo.py and bingo-card.py
 .. list-table:: 
    :widths: 10 10
 	    
-   * - .. figure:: ./bingo-card.png
+   * - .. Image:: ./bingo-card.png
           :scale: 10%
           :height: 10px
           :width: 10%
 	  :align: left
 		  
      - **bingo-card.py**
-   * - .. figure:: ./bingo.png
+   * - .. Image:: ./bingo.png
           :scale: 10%
           :height: 10px
 	  :width: 10%
