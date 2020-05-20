@@ -32,3 +32,4 @@ Image of using bingo.py and bingo-card.py
 	  :align: right
      - **bingo.py**
 
+-------------------------------------------------
