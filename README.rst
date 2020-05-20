@@ -20,11 +20,13 @@ Image of using bingo.py and bingo-card.py
 
    * - .. image:: ./bingo-card.png
           :scale: 20%
+          :width: 30px
 	  :align: left
 		  
-     - bingo-card.py
+     - **bingo-card.py**
    * - .. image:: ./bingo.png
           :scale: 20%
+          :width: 30px
 	  :align: right
-     - bingo.py
+     - **bingo.py**
 
