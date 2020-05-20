@@ -18,7 +18,7 @@ Image of using bingo.py and bingo-card.py
 .. image:: ./bingo.png
    :scale: 10%
    :height: 30px
-   :width: 100px
+   :width: 50px
    :align: left
 
 .. image:: ./bingo-card.png
