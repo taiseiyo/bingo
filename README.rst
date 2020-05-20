@@ -22,9 +22,12 @@ Image of using bingo.py and bingo-card.py
    * - 画像
      - 解説
    * - .. image:: ./bingo-card.png
-          :scale: 40%
-     - Sphinx
+          :scale: 20%
+	  :align: left
+		  
+     - bingo-card.py
    * - .. image:: ./bingo.png
-          :scale: 40%
-     - Python
+          :scale: 20%
+	  :align: right
+     - bingo.py
 
