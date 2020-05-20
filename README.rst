@@ -16,17 +16,17 @@ Image of using bingo.py and bingo-card.py
 -----------------------------------------------
 
 .. list-table:: 
-   :widths: 5 5
+   :widths: 1 1
 
    * - .. figure:: ./bingo-card.png
           :scale: 10%
-          :width: 30px
+          :width: 10px
 	  :align: left
 		  
      - **bingo-card.py**
    * - .. figure:: ./bingo.png
           :scale: 10%
-          :width: 30px
+          :width: 50px
 	  :align: right
      - **bingo.py**
 
