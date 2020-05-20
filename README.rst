@@ -16,7 +16,7 @@ Image of using bingo.py and bingo-card.py
 -----------------------------------------------
 
 .. list-table:: 
-   :widths: 10px 10px
+   :widths: 10 10
 	    
    * - .. figure:: ./bingo-card.png
           :scale: 10%
