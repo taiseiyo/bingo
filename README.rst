@@ -17,12 +17,12 @@ Image of using bingo.py and bingo-card.py
 
 .. image:: ./bingo.png
    :scale: 40%
-   :height: 100px
+   :height: 50px
    :width: 100px
    :align: left
 
 .. image:: ./bingo-card.png
    :scale: 40%
-   :height: 100px
+   :height: 50px
    :width: 100px
    :align: right
