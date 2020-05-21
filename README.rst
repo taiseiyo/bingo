@@ -27,15 +27,15 @@ Image of using bingo.py and bingo-card.py
    :width: 50px
 
 
-.. |bingp-card| image:: ./figure/bingo-card.png
+.. |bingo-card| image:: ./figure/bingo-card.png
    :scale: 20%
    :width: 50px
 
 	   
-========= ==============
-  bingo    bingo-card
---------- --------------
- |bingo|   |bingo-card|
-========= ==============
+=========  ==============
+  bingo      bingo-card
+---------  --------------
+ |bingo|    |bingo-card|
+=========  ==============
 
 -------------------------------------------------
