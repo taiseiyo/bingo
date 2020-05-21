@@ -15,12 +15,13 @@ bingo. By installing these two, multiple people can play bingo.
 Image of using bingo.py and bingo-card.py
 -----------------------------------------------
 
-.. image:: ./figure/bingo-tool.png
+.. figure:: ./figure/bingo-tool.png
    :scale: 40%
    :height: 100px
    :width: 200px
    :align: left
 
+   Image when both programs are started at the same time
 
 .. |bingo| image:: ./figure/bingo.png
    :scale: 20%	
