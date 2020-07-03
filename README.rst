@@ -9,6 +9,9 @@ program that displays random numbers when doing numbers in Bingo.
 Also, bingo-card.py is a program that creates a card for playing
 bingo. By installing these two, multiple people can play bingo.
 
+https://qiita.com/taiseiyo11/items/f8096c5ff59fd20b523a
+Additional explanation is provided at this URL.
+
 ==================================================================
 
 -----------------------------------------------
@@ -35,7 +38,7 @@ Image of using bingo.py and bingo-card.py
 ===========  ================
   bingo.py    bingo-card.py
 -----------  ----------------
- |bingo|      |bingo-card|
+  |bingo|      |bingo-card|
 ===========  ================
 
 -------------------------------------------------
