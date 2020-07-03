@@ -35,7 +35,7 @@ def callchange_number(sur, nums, call):
         sur.blit(text, [x / 2 - 100, y / 2 - 100])
 
 
-def mainloope(nums, call=None):
+def mainloop(nums, call=None):
     while True:
         sur.fill((0, 0, 0))
         for event in pygame.event.get():
@@ -53,7 +53,7 @@ def mainloope(nums, call=None):
 
 def main():
     nums = getnum()
-    mainloope(nums)
+    mainloop(nums)
 
 
 main()

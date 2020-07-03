@@ -19,7 +19,7 @@ class Bingo_Card(object):
 
     def __init__(self):
         self.switch, self.count = True,  1
-        self.mainloope()
+        self.mainloop()
 
     def generate_num(self, x, y, number):
         for i in range(1, 6):
@@ -37,7 +37,7 @@ class Bingo_Card(object):
                                          (0, 128, 0)), (string_x, 50))
         pygame.draw.circle(surface, (255, 0, 0), (350, 350), 50)
 
-    def mainloope(self):
+    def mainloop(self):
         while True:
             for get in pygame.event.get():
                 if(get.type == KEYDOWN):
