@@ -15,7 +15,7 @@ bingo_string = pygame.font.SysFont(None, 72)
 number_string = pygame.font.SysFont(None, 100)
 
 
-class Bingo_Card(object):
+class BingoCard():
 
     def __init__(self):
         self.switch, self.count = True,  1
@@ -72,4 +72,4 @@ class Bingo_Card(object):
             pygame.display.update()
 
 
-Bingo_Card()
+BingoCard()
